@@ -10,7 +10,7 @@ import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 
 const Header = () => {
   return (
-    <div className='header w-full h-auto flex items-center gap-2 px-48 py-2 shadow-sm bg-white'>
+    <div className='sticky top-0 header w-full h-auto flex items-center gap-2 px-48 py-2 shadow-sm bg-white'>
         <div className="header__logo w-auto h-auto flex justify-center items-center">
             <img className='logo aspect-square w-10 h-10 rounded-md' src={LOGO_URL} alt="logo" />
         </div>

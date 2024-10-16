@@ -1,0 +1,34 @@
+{
+    "logged-in-user": {
+        "username":"phani kumar",
+        "profileUrl" : "https://avatars.githubusercontent.com/u/53811651?v=4",
+        "role" : "SDET",
+        "org" : "Qentelli",
+        "followers" : 240,
+        "following" : 500
+    },
+
+    "posts" : [
+        {
+            "postedBy" : "Virat Kohli",
+            "postedOn" : "10-10-2024",
+            "postDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, aspernatur ducimus. Repellat deserunt voluptates excepturi totam sequi magnam sunt dignissimos repudiandae officia rem facilis quae, itaque nostrum provident aliquam. Explicabo!",
+            "postUrl" : "https://cdn.pixabay.com/photo/2023/06/14/23/12/sunset-8064078_1280.jpg",
+            "postComments" : 10
+        },
+        {
+            "postedBy" : "phani kumar",
+            "postedOn" : "10-10-2024",
+            "postDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, aspernatur ducimus. Repellat deserunt voluptates excepturi totam sequi magnam sunt dignissimos repudiandae officia rem facilis quae, itaque nostrum provident aliquam. Explicabo!",
+            "postUrl" : "https://cdn.pixabay.com/photo/2023/06/14/23/12/sunset-8064078_1280.jpg",
+            "postComments" : 10
+        },
+        {
+            "postedBy" : "phani kumar",
+            "postedOn" : "10-10-2024",
+            "postDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, aspernatur ducimus. Repellat deserunt voluptates excepturi totam sequi magnam sunt dignissimos repudiandae officia rem facilis quae, itaque nostrum provident aliquam. Explicabo!",
+            "postUrl" : "https://cdn.pixabay.com/photo/2023/06/14/23/12/sunset-8064078_1280.jpg",
+            "postComments" : 10
+        }
+    ]
+}
