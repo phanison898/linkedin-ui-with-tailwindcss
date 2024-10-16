@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/linkedin-ui-with-tailwindcss/static/css/main.b8e70135.css",
+    "main.js": "/linkedin-ui-with-tailwindcss/static/js/main.f989577d.js",
+    "index.html": "/linkedin-ui-with-tailwindcss/index.html",
+    "main.b8e70135.css.map": "/linkedin-ui-with-tailwindcss/static/css/main.b8e70135.css.map",
+    "main.f989577d.js.map": "/linkedin-ui-with-tailwindcss/static/js/main.f989577d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8e70135.css",
+    "static/js/main.f989577d.js"
+  ]
+}
