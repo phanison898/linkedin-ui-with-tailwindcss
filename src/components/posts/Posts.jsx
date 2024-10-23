@@ -15,8 +15,9 @@ const Posts = () => {
 
   return (
     <div className='posts w-full h-auto flex flex-col items-center gap-3 pb-10'>
-        {posts.map(post => (
+        {posts.map((post, index) => (
             <Post
+                key={index}
                 postedBy={post.postedBy}
                 postedByUrl={userDetails.profileUrl}
                 postedByFollowers={userDetails.followers}

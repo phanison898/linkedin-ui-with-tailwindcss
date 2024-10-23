@@ -1,16 +1,17 @@
 import React, {useState, useEffect} from 'react'
+import { useSelector } from 'react-redux'; 
 import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
 import SlowMotionVideoOutlinedIcon from '@mui/icons-material/SlowMotionVideoOutlined';
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
-import data from '../../assets/posts.json';
 
 const Form = () => {
 
+    const user = useSelector((state) => state.auth.user);
     const[profileUrl, setProfileUrl] = useState("");
 
     useEffect(()=>{
-        setProfileUrl(profileUrl => data['logged-in-user'].profileUrl);
-    },[])
+        setProfileUrl(user.profilePicture);
+    },[user])
 
   return (
     <div className='form w-full h-auto flex flex-col items-center gap-2 p-1 sm:p-2 md:p-2 rounded-sm sm:rounded-md md:rounded-md bg-white'>

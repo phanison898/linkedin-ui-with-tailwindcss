@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import {useDispatch} from 'react-redux';
 import {LOGO_URL} from '../../constants/Constants';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
@@ -7,8 +8,16 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
 import AppsOutageOutlinedIcon from '@mui/icons-material/AppsOutageOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+import {logout} from "../../store/reducers/auth"
 
 const Header = () => {
+
+  const dispatch = useDispatch();
+
+  useEffect(()=>{
+
+  },[]);
+
   return (
     <div className='sticky top-0 header w-full h-auto flex items-center gap-2 px-48 py-2 shadow-sm bg-white'>
         <div className="header__logo w-auto h-auto flex justify-center items-center">
@@ -24,7 +33,7 @@ const Header = () => {
             <EmailOutlinedIcon />
             <NotificationsOutlinedIcon />
             <AppsOutageOutlinedIcon />
-            <DarkModeOutlinedIcon />
+            <DarkModeOutlinedIcon onClick={()=> {dispatch(logout())}} />
         </div>
     </div>
   )
